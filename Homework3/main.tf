@@ -20,10 +20,7 @@ variable "availability_zones" {
   default = ["us-west-2a", "us-west-2b", "us-west-2c"]
 }
 
-# Specify 3 web names
-variable "webName" {
-  default = ["web-1", "web-2", "web-3"]
-}
+
 
 resource "aws_default_vpc" "default" {
   
