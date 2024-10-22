@@ -17,3 +17,4 @@
 # terrform init
 # terraform apply -var-file oregon.tfvars
 # terraform destroy -var-file oregon.tfvars
+# repeat the same for all regions
